@@ -1,0 +1,246 @@
+body {
+  font-family: Poppins, Arial;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.notaria-seccion-1 {
+  /*CHECAR*/
+  height: 100vh;
+  width: 100vw;
+}
+
+.notaria-fondo {
+  position: fixed;
+  top: 0;
+  background: url("../assets/notaria-fondo.png");
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
+}
+
+.notaria-link {
+  padding: 30px 35px;
+  color: #333;
+}
+.notaria-link .com {
+  font-weight: 100;
+  color: #333;
+}
+
+.notaria-134-de-guadalajara {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  height: 100vh;
+  width: 270px;
+}
+
+h1 {
+  margin: 0;
+  color: #333;
+  font-size: 44px;
+}
+
+h2 {
+  margin: 0;
+  color: #868686;
+  margin-bottom: 40px;
+}
+
+.notaria-numero {
+  font-weight: 100;
+}
+
+.menu-sidebar {
+  position: fixed;
+  display: flex;
+  top: 0;
+  right: 0;
+  bottom: 10px;
+  justify-content: center;
+  width: 40px;
+}
+
+.menu-contenedor {
+  position: absolute;
+  bottom: 40px;
+  transform: rotate(270deg);
+  cursor: pointer;
+}
+.menu-contenedor a {
+  color: #868686;
+}
+
+.cita {
+  margin: 0;
+  width: 100vw;
+  height: 522px;
+  background-color: #fff;
+}
+
+.tarjeta-contenedor {
+  position: relative;
+  height: 522px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tarjeta-cita {
+  position: absolute;
+  top: 70px;
+  bottom: 70px;
+  right: 35px;
+  left: 35px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+}
+
+.tarjeta-titulo {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.tarjeta-subtitulo {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  font-weight: 100;
+  margin-bottom: 25px;
+}
+
+.disclaimer {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.formulario {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.formulario div,
+.formulario input {
+  width: 98%;
+}
+.formulario input {
+  font-family: Poppins, Arial;
+  margin-bottom: 25px;
+  border: 0.5px solid #333;
+  border-radius: 2px;
+  font-size: 17px;
+  color: #333;
+}
+.formulario button {
+  border: none;
+  font-family: Poppins, Arial;
+  font-weight: bold;
+  letter-spacing: 4px;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 3px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.contacto {
+  background-color: #333;
+  height: 800px;
+  width: 100vw;
+}
+
+.contacto-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 30px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+
+.mapa-contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+iframe {
+  margin: 0px 0px;
+  width: 300px;
+  height: 300px;
+}
+
+.contacto-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacto-titulo {
+  color: white;
+  margin-bottom: 20px;
+}
+.contacto-titulo div {
+  font-weight: bold;
+  font-size: 24px;
+}
+.contacto-titulo div span {
+  font-weight: 100;
+}
+
+.telefono,
+.correo,
+.direccion,
+.horario {
+  display: flex;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.columna-izquierda {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.columna-derecha {
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.direccion .columna-derecha {
+  width: 250px;
+}
+
+.horario-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-weight: 100;
+  align-items: top;
+  font-size: 14px;
+}
+.horario-grid div {
+  margin-bottom: 10px;
+}
+.horario-grid .cerrado {
+  margin-left: 20px;
+}/*# sourceMappingURL=notaria.css.map */
