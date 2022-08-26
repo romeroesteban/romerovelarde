@@ -1,0 +1,352 @@
+@media (max-width: 400px) {
+  .seccion-blanca {
+    margin: 0;
+    width: 100vw;
+    background-color: #fff;
+    height: 100vh;
+    align-items: center;
+  }
+  .seccion-blanca .tarjeta-contenedor {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos {
+    align-items: space-between;
+    justify-self: center;
+    position: absolute;
+    top: 8vh;
+    right: 35px;
+    left: 35px;
+    bottom: 8vh;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+    padding: 8px;
+    min-width: 200px;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .tarjeta-titulo {
+    height: 12vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .tarjeta-subtitulo {
+    height: 8vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+    font-weight: 100;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form {
+    height: 52vh;
+    position: relative;
+    justify-content: center;
+    min-width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: space-between;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form #correo,
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form #apellido-paterno {
+    margin-right: 5px;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form #telefono,
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form #apellido-materno {
+    margin-left: 5px;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form .form-control,
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form .mensaje,
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form .nombre {
+    width: 100%;
+    border: 0.5px solid #333;
+    border-radius: 2px;
+    font-family: Poppins, Arial;
+    color: #333;
+    font-size: 10px;
+    box-sizing: border-box;
+    margin-bottom: 2vh;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form .form-control {
+    flex: 1;
+    height: 4vh;
+    margin-bottom: 2vh;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form .mensaje {
+    height: 12vh;
+    min-height: 140px;
+    max-height: 140px;
+    min-width: 100%;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form input[type=email],
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form input[type=phone],
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form input[type=text] {
+    font-size: 15px;
+    height: 4vh;
+    padding: 5px 10px;
+    font-family: Poppins, Arial;
+    border: 0.5px solid #333;
+    border-radius: 2px;
+    color: #333;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .nombre:hover,
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .form-control:active,
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .mensaje:active {
+    border: 2px solid purple;
+    padding: 1px 10px;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form input[type=submit] {
+    border: none;
+    font-family: Poppins, Arial;
+    font-weight: bold;
+    letter-spacing: 4px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    border-radius: 15px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    height: 4vh;
+    vertical-align: center;
+    cursor: pointer;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .btn:hover,
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .btn:active {
+    background-color: rgb(61, 61, 61);
+  }
+}
+@media (min-width: 400px) and (max-width: 470px) {
+  .seccion-blanca {
+    margin: 0;
+    width: 100vw;
+    background-color: #fff;
+    height: 100vh;
+  }
+  .seccion-blanca .tarjeta-contenedor {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    height: fixed;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos {
+    height: fixed;
+    position: absolute;
+    top: 50px;
+    right: 35px;
+    left: 35px;
+    bottom: 50px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    min-width: 200px;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .tarjeta-titulo {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .tarjeta-subtitulo {
+    height: 8vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+    font-weight: 100;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form {
+    height: 52vh;
+    position: relative;
+    justify-content: center;
+    min-width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form form {
+    width: 100%;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: space-between;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form #correo,
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form #apellido-paterno {
+    margin-right: 5px;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form #telefono,
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form #apellido-materno {
+    margin-left: 5px;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form .form-control,
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form .mensaje,
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form .nombre {
+    width: 100%;
+    border: 0.5px solid #333;
+    border-radius: 2px;
+    font-family: Poppins, Arial;
+    color: #333;
+    font-size: 10px;
+    box-sizing: border-box;
+    margin-bottom: 2vh;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form .form-control {
+    flex: 1;
+    height: 4vh;
+    margin-bottom: 2vh;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form .mensaje {
+    height: 12vh;
+    min-height: 140px;
+    max-height: 140px;
+    min-width: 100%;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form input[type=email],
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form input[type=phone],
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form input[type=text] {
+    font-size: 15px;
+    height: 4vh;
+    padding: 5px 10px;
+    font-family: Poppins, Arial;
+    border: 0.5px solid #333;
+    border-radius: 2px;
+    color: #333;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form input[type=submit] {
+    border: none;
+    font-family: Poppins, Arial;
+    font-weight: bold;
+    letter-spacing: 4px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    border-radius: 15px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    height: 4vh;
+    vertical-align: center;
+    cursor: pointer;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .btn:hover,
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .btn:active {
+    background-color: rgb(61, 61, 61);
+  }
+}
+@media (min-width: 470px) {
+  .seccion-blanca {
+    margin: 0;
+    width: 100vw;
+    background-color: #fff;
+    height: 100vh;
+  }
+  .seccion-blanca .tarjeta-contenedor {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    height: fixed;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos {
+    height: fixed;
+    position: absolute;
+    top: 50px;
+    right: 35px;
+    left: 35px;
+    bottom: 50px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    min-width: 200px;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .tarjeta-titulo {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .tarjeta-subtitulo {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    font-weight: 100;
+    margin-bottom: 25px;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form {
+    position: relative;
+    justify-content: space-between;
+    bottom: 10px;
+    min-width: 200px;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    min-width: 200px;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form .form-control,
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form .mensaje {
+    flex: 1;
+    width: 0;
+    margin: 10px;
+    border: 0.5px solid #333;
+    border-radius: 2px;
+    font-family: Poppins, Arial;
+    color: #333;
+    font-size: 15px;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form .mensaje {
+    height: 80px;
+    min-height: 80px;
+    max-height: 80px;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .contenedor-form .nombre {
+    width: 100%;
+    margin: 10px;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form input[type=email],
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form input[type=phone],
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form input[type=text] {
+    font-size: 15px;
+    height: 20px;
+    padding: 5px 10px;
+    font-family: Poppins, Arial;
+    margin-bottom: 25px;
+    border: 0.5px solid #333;
+    border-radius: 2px;
+    color: #333;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form input[type=submit] {
+    border: none;
+    font-family: Poppins, Arial;
+    font-weight: bold;
+    letter-spacing: 4px;
+    flex: 1;
+    width: 0;
+    background-color: #333;
+    color: white;
+    padding: 3px;
+    border-radius: 15px;
+    margin: 0 10px 10px 10px;
+    height: 30px;
+    cursor: pointer;
+    bottom: 10px;
+  }
+  .seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .btn:hover,
+.seccion-blanca .tarjeta-contenedor .tarjeta-escribenos .form .btn:active {
+    background-color: rgb(61, 61, 61);
+  }
+}/*# sourceMappingURL=escribenos.css.map */
