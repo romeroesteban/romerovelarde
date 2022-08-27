@@ -1,0 +1,208 @@
+.notaria-seccion-1 {
+  /*CHECAR*/
+  height: 100vh;
+  width: 100vw;
+}
+.notaria-seccion-1 .notaria-fondo {
+  position: fixed;
+  top: 0;
+  background: url("../assets/notaria-fondo.png");
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
+}
+.notaria-seccion-1 .notaria-link {
+  padding: 30px 35px;
+  color: #333;
+}
+.notaria-seccion-1 .notaria-link .com {
+  font-weight: 100;
+  color: #333;
+}
+.notaria-seccion-1 .notaria-134-de-guadalajara {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  height: 100vh;
+  width: 270px;
+}
+.notaria-seccion-1 .notaria-134-de-guadalajara h1 {
+  margin: 0;
+  color: #333;
+  font-size: 44px;
+}
+.notaria-seccion-1 .notaria-134-de-guadalajara h2 {
+  margin: 0;
+  color: #868686;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+.notaria-seccion-1 .menu-sidebar {
+  position: fixed;
+  display: flex;
+  top: 0;
+  right: 0;
+  bottom: 10px;
+  justify-content: center;
+  width: 40px;
+}
+.notaria-seccion-1 .menu-sidebar .menu-contenedor {
+  position: absolute;
+  bottom: 40px;
+  transform: rotate(270deg);
+  cursor: pointer;
+}
+.notaria-seccion-1 .menu-sidebar .menu-contenedor a {
+  color: #868686;
+}
+
+@media (min-width: 530px) {
+  .notaria-seccion-1 {
+    /*CHECAR*/
+    height: 100vh;
+    width: 100vw;
+  }
+  .notaria-seccion-1 .notaria-fondo {
+    position: fixed;
+    top: 0;
+    background: url("../assets/notaria-fondo.png");
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    width: 100vw;
+    height: 100vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    z-index: -1;
+  }
+  .notaria-seccion-1 .notaria-link {
+    padding: 30px 35px;
+    color: #333;
+    font-size: 20px;
+  }
+  .notaria-seccion-1 .notaria-link .com {
+    font-weight: 100;
+    color: #333;
+  }
+  .notaria-seccion-1 .notaria-134-de-guadalajara {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    height: 100vh;
+    width: 400px;
+  }
+  .notaria-seccion-1 .notaria-134-de-guadalajara h1 {
+    margin: 0;
+    color: #333;
+    font-size: 70px;
+  }
+  .notaria-seccion-1 .notaria-134-de-guadalajara h2 {
+    margin: 0;
+    color: #868686;
+    font-weight: 100;
+    margin-bottom: 40px;
+  }
+  .notaria-seccion-1 .menu-sidebar {
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: 0;
+    bottom: 10px;
+    justify-content: center;
+    width: 40px;
+  }
+  .notaria-seccion-1 .menu-sidebar .menu-contenedor {
+    position: absolute;
+    bottom: 40px;
+    transform: rotate(270deg);
+    cursor: pointer;
+  }
+  .notaria-seccion-1 .menu-sidebar .menu-contenedor a {
+    color: #868686;
+  }
+}
+@media (min-width: 470px) and (max-width: 530px) {
+  .notaria-seccion-1 {
+    /*CHECAR*/
+    height: 100vh;
+    width: 100vw;
+  }
+  .notaria-seccion-1 .notaria-fondo {
+    position: fixed;
+    top: 0;
+    background: url("../assets/notaria-fondo.png");
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    width: 100vw;
+    height: 100vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    z-index: -1;
+  }
+  .notaria-seccion-1 .notaria-link {
+    padding: 30px 35px;
+    color: #333;
+    font-size: 20px;
+  }
+  .notaria-seccion-1 .notaria-link .com {
+    font-weight: 100;
+    color: #333;
+  }
+  .notaria-seccion-1 .notaria-134-de-guadalajara {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    height: 100vh;
+    width: 100vw;
+  }
+  .notaria-seccion-1 .notaria-134-de-guadalajara div {
+    width: 100px;
+  }
+  .notaria-seccion-1 .notaria-134-de-guadalajara h1 {
+    margin: 0;
+    color: #333;
+    font-size: 55px;
+  }
+  .notaria-seccion-1 .notaria-134-de-guadalajara h2 {
+    margin: 0;
+    color: #868686;
+    font-weight: 100;
+    margin-bottom: 40px;
+  }
+  .notaria-seccion-1 .menu-sidebar {
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: 0;
+    bottom: 10px;
+    justify-content: center;
+    width: 40px;
+  }
+  .notaria-seccion-1 .menu-sidebar .menu-contenedor {
+    position: absolute;
+    bottom: 40px;
+    transform: rotate(270deg);
+    cursor: pointer;
+  }
+  .notaria-seccion-1 .menu-sidebar .menu-contenedor a {
+    color: #868686;
+  }
+}/*# sourceMappingURL=hero.css.map */
